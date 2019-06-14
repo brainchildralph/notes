@@ -1,3 +1,5 @@
+
+```
 Use: screen [-opts] [cmd [args]]
  or: screen -r [host.tty]
 
@@ -35,3 +37,4 @@ Options:
 -wipe [match] Do nothing, just clean up SockDir [on possible matches].
 -x            Attach to a not detached screen. (Multi display mode).
 -X            Execute <cmd> as a screen command in the specified session.
+```
