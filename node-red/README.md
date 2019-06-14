@@ -3,51 +3,51 @@
 
 ---
 
-##### Use the settings file:
+##### Use the settings file
 
-  ```
-  node-red -s node-red-settings.js
-  ```
+> ```
+> node-red -s node-red-settings.js
+> ```
 
 ##### flows  file path:
 
-  ```
-  ...
-  flowFile: 'flows.json',
-  ...
-  ```
+> ```
+> ...
+> flowFile: 'flows.json',
+> ...
+> ```
 
 ##### Access the UI
 
-  http://localhost:1880
+> http://localhost:1880
 
 
 ##### Listen IP settings
 
-  ```
-  ...
-  uiHost: "0.0.0.0"
-  ...
-  ```
+> ```
+> ...
+> uiHost: "0.0.0.0"
+> ...
+> ```
 
 ##### UI login
 
-  Uncomment node-red-settings: 
+> Uncomment node-red-settings: 
 
-  ```
-  adminAuth: {
-      type: "credentials",
-      users: [{
-          username: "admin",
-          password: "abash8.",
-          permissions: "*"
-      }]
-  }
-  ```
+> ```
+> adminAuth: {
+>     type: "credentials",
+>     users: [{
+>         username: "admin",
+>         password: "abash8.",
+>         permissions: "*"
+>     }]
+> }
+> ```
 
 Create password: 
 
-  ```
-  node-red-admin hash-pw
-  ```
+> ```
+> node-red-admin hash-pw
+> ```
 
