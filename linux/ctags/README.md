@@ -8,12 +8,16 @@
 ##### Usage examples: 
 >
 > ``` 
-> ctags -Rb
+> ctags -R
 > ```
 > 
 > With file list: 
 > ```
 > ctags -L <source code list>
 > ```
-
-
+##### Language map: 
+> 
+> ```
+> ctags -R --langmap=C++:+.ino --verbose `pwd`
+> ```
+> 
