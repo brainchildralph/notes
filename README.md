@@ -1,5 +1,7 @@
-## Notes Readme
+## Notes
+
 ---
-To be continued...
+
+[Linux](linux.md)
 
 
