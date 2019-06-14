@@ -33,7 +33,7 @@
 ##### UI login
 
 > Uncomment node-red-settings: 
-
+> 
 > ```
 > adminAuth: {
 >     type: "credentials",
@@ -45,8 +45,8 @@
 > }
 > ```
 
-Create password: 
-
+> Create password: 
+> 
 > ```
 > node-red-admin hash-pw
 > ```
