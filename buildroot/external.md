@@ -9,5 +9,26 @@
 
    - Config.in  
    - external.desc  
+   - external.mk    
+
+3. Add the contents as below for these example files. 
+
+   - external.desc
+   
+   ```
+   name: developing
+   desc: developing_config
+   ```
+   
    - external.mk
+   
+   ```
+   include $(sort $(wildcard $(BR2_EXTERNAL_developing_PATH)/package/*/*.mk))
+   ```
+   
+   - Config.in  
+   
+   ```
+   source "$BR2_EXTERNAL_developing_PATH/package/Config.in"
+   ```
 
