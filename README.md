@@ -2,6 +2,6 @@
 
 ---
 
-[Linux](linux.md)
+[Linux](linux/README.md)
 
 
