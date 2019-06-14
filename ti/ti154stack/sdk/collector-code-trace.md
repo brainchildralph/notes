@@ -26,4 +26,7 @@ example/collector/appsrv.c:
 > Collector_process()
 > 
 > 
+> s2appsrv_thread()
+> > appsrv_handle_appClient_request()
+> > 
 > 
