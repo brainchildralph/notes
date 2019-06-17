@@ -23,7 +23,7 @@ example/collector/appsrv.c:
 
 Trace appsrv_server_thread()    
 > appsrv_server_thread()    
->> pCONN->socket_interface = appClient_mt_interface_template()    
+>> pCONN->socket_interface = appClient_mt_interface_template    
 >> s2appsrv_thread()    
 >>> MT_MSG_interfaceCreate(recv data)()
 >>>> mt_msg_rx_thread()    
