@@ -39,6 +39,8 @@ screen -ls
 
 `Ctrl + a`, then `'` enter a number to select a window after prompt. 
 
+`Ctrl + a`, then `"` select a window by list. 
+
 `Ctrl + a`, then `n` or `p` to go to next or previous window. 
 
 
