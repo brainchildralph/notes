@@ -37,6 +37,8 @@ screen -ls
 
 `Ctrl + a`, then `c` to create a new window
 
+`Ctrl + a`, then `A` to add title for current window. 
+
 `Ctrl + a`, then `'` enter a number to select a window after prompt. 
 
 `Ctrl + a`, then `"` select a window by list. 
