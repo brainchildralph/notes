@@ -1,49 +1,46 @@
-1.
-
-memchr檢測的是一段內存，strchr檢測的是一個字符串 如果一段內存中有0x0的話，顯然不能用strchr去查找的。建議看看兩個函數的原型
+1. memchr檢測的是一段內存，strchr檢測的是一個字符串 如果一段內存中有0x0的話，顯然不能用strchr去查找的。建議看看兩個函數的原型
 
 
-2.
+2. strchr會停在\0，memchr不會，看接口就明白了：
 
-strchr會停在\0，memchr不會，看接口就明白了：
+   NAME    
+   
+           memchr, memrchr - scan memory for a character
 
-NAME
-       memchr, memrchr - scan memory for a character
+   SYNOPSIS    
+   
+          #include <string.h>
+          void *memchr(const void *s, int c, size_t n);
+          void *memrchr(const void *s, int c, size_t n);
 
-SYNOPSIS
-       #include <string.h>
-       void *memchr(const void *s, int c, size_t n);
-       void *memrchr(const void *s, int c, size_t n);
+   NAME    
+   
+          strchr, strrchr - locate character in string
 
-NAME
-       strchr, strrchr - locate character in string
-
-SYNOPSIS
-       #include <string.h>
-       char *strchr(const char *s, int c);
-       char *strrchr(const char *s, int c);
-
-
-3.
-
-mem*系針對字節
-str*系針對字符
-2個概念
+   SYNOPSIS    
+   
+          #include <string.h>
+          char *strchr(const char *s, int c);
+          char *strrchr(const char *s, int c);
 
 
-4.
 
-mem  的效率高
-
-
-5.
-
-類似strcpy memcpy
+3. mem*系針對字節
+    
+   str*系針對字符
+    
+   2個概念
 
 
-6.
+4. mem  的效率高
 
-memchar針對與內存操作，shtchr只能是字符串操作
+
+5. 類似strcpy memcpy
+
+
+6. memchar針對與內存操作，shtchr只能是字符串操作
+
+
 
 參考出處
 --------------------- 
