@@ -44,8 +44,11 @@ mem  的效率高
 6.
 
 memchar針對與內存操作，shtchr只能是字符串操作
+
+參考出處
 --------------------- 
 作者：bat67 
 来源：CSDN 
 原文：https://blog.csdn.net/bat67/article/details/52063132 
 版权声明：本文为博主原创文章，转载请附上博文链接！
+
