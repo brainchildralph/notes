@@ -20,6 +20,8 @@ example/collector/appsrv.c:
        collector_thread()
 > > 
 > 
+
+Trace appsrv_server_thread()    
 > appsrv_server_thread()    
 >> pCONN->socket_interface = appClient_mt_interface_template()    
 >> s2appsrv_thread()    
