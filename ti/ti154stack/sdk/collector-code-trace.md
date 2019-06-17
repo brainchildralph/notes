@@ -20,13 +20,13 @@ example/collector/appsrv.c:
        collector_thread()
 > > 
 > 
-> appsrv_server_thread()
-> 
-> 
-> Collector_process()
-> 
-> 
-> s2appsrv_thread()
-> > appsrv_handle_appClient_request()
+> appsrv_server_thread()    
+>> pCONN->socket_interface = appClient_mt_interface_template()    
+>> s2appsrv_thread()    
+>>> MT_MSG_interfaceCreate(recv data)()
+>>>> mt_msg_rx_thread()    
+>>>>> mt_msg_rx()    
+>>>>>> mt_msg_rx_bytes()    
+>>> appsrv_handle_appClient_request()    
 > > 
 > 
