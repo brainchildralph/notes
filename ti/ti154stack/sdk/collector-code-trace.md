@@ -1,24 +1,61 @@
 
-SDK: 
+SDK
+======
+
 > TI-15-4-STACK-GATEWAY-LINUX-SDK_2.09.00.09
 
-example/collector/linux_main.c: 
+
+Code Trace
+==========    
+
+> 
+> cscope    
+> =======
+> 
+> ```
+> find `pwd` -name "*.[ch]" > cscope.files
+> cscope -bkq -i cscope.files
+> ```
+>  
+> ctags
+> =======
+>
+> ```
+> ctags -L cscope.files
+> ```
+> 
+> 
+> 
+> Console Initialization
+> =====
+> 
+>> Collector_init    
+>>> Csf_init    
+>>>> initConsoleCmd    
+>>>>> 
+> 
+> 
+> example/collector/linux_main.c: 
+> ======
+> 
 > Entry main()
 > 
-> > Parsing config with `cfg_callback`    
-> > APP_main()
-> > 
+>> Parsing config with `cfg_callback`    
+>> APP_main()
+>> 
 > 
-
-example/collector/appsrv.c:  
+> 
+> example/collector/appsrv.c:  
+> ======
+> 
 > APP_main()
 > 
-> >  create 2 threads
-> >  - server-thread:     
+>>  create 2 threads
+>>  - server-thread:     
        appsrv_server_thread()
-> >  - collector-thread:   
+>>  - collector-thread:   
        collector_thread()
-> > 
+>> 
 > 
 
 Trace appsrv_server_thread()    
