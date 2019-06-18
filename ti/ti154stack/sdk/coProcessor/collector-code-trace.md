@@ -94,10 +94,28 @@ Test
 > Netcat (nc)
 > =====
 > 
-> ```
-> ip=192.168.2.165
-> echo -ne "\x00\x00\x4a\x0b" | nc -q -1 ${ip} 5000     # wait forever
-> ```
-
-
-
+> Example:   
+> =====
+> 
+>> ```
+>> ip=192.168.2.165
+>> echo -ne "\x00\x00\x4a\x0b" | nc -q -1 ${ip} 5000     # wait forever
+>> ```
+>>
+>> Permit Join ON/OFF
+>> =====
+>>
+>>> ```
+>>> echo -ne "\x04\x00\x4a\x0b\xff\xff\xff\xff" | nc -q -1 ${ip} 5000     # Permit Join On
+>>> echo -ne "\x04\x00\x4a\x0b\x00\x00\x00\x00" | nc -q -1 ${ip} 5000     # Permit Join Off
+>>> ```
+>>>
+>>
+>> Toggle Sensor LED
+>> =====
+>>
+>>> ```
+>>> echo -ne "\x03\x00\x4a\x0d\x06\x01\x00" | nc -q -1 ${ip} 5000     #  Toggle Device 0x0001 LED
+>>> ```
+>>
+>>
