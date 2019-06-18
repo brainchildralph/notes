@@ -16,10 +16,12 @@ Standard FTDI Cable
 References    
 ==========
 
+- [eLinux](eLinux)
 - [Node-RED](Node-RED)
 
 
 
+[eLinux]: https://elinux.org/Beagleboard:BeagleBoneBlack
 [Node-RED]: https://nodered.org/docs/hardware/beagleboneblack
 
 
