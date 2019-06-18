@@ -68,7 +68,16 @@ Trace appsrv_server_thread()
 >>>>>> mt_msg_rx_bytes()    
 >>>>>
 >>>>
->>> appsrv_handle_appClient_request()    
+>>> appsrv_handle_appClient_request()   
+>>>> APPSRV_GET_NWK_INFO_REQ    
+>>>> appsrv_processSetJoinPermitReq()    
+>>>>> Cllc_setJoinPermit()    
+>>>>>> **// Send update state changed message**    
+>>>>>> updateState()     
+>>>>> **// Send status message**      
+>>>>> send_AppSrvJoinPermitCnf()     
+>>>>
+>>>
 >> 
 > 
 
