@@ -71,3 +71,18 @@ Trace appsrv_server_thread()
 >>> appsrv_handle_appClient_request()    
 >> 
 > 
+
+
+Test
+======
+
+> Netcat (nc)
+> =====
+> 
+> ```
+> ip=192.168.2.165
+> echo -ne "\x00\x00\x4a\x0b" | nc -q -1 ${ip} 5000     # wait forever
+> ```
+
+
+
