@@ -12,16 +12,20 @@ Standard FTDI Cable
   | Pin 5 (TX)   | White (RX)  |
 
 
+PIN Definitions
+======
+![PIN]
 
 References    
 ==========
 
-- [eLinux](eLinux)
-- [Node-RED](Node-RED)
+- [eLinux]
+- [Node-RED]
 
 
 
 [eLinux]: https://elinux.org/Beagleboard:BeagleBoneBlack
 [Node-RED]: https://nodered.org/docs/hardware/beagleboneblack
+[PIN]: /ti/BeagleboneBlack/bbb_pins.png
 
 
