@@ -8,6 +8,11 @@
 > ```
 > node-red -s node-red-settings.js
 > ```
+> 
+> **指定使用者資料夾**
+> ```
+> node-red -s node-red-settings.js -u $userDir
+> ```
 
 ##### flows  file path:
 
@@ -50,4 +55,8 @@
 > ```
 > node-red-admin hash-pw
 > ```
+> 
+
+
+
 
