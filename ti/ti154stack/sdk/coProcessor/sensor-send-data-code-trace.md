@@ -33,4 +33,13 @@ Example Packet
 > ```
 > 
 
+processOadData
+------
+
+- collector.c
+- smsgs.h
+  ```
+      /*! OAD mesages, sent/received from both collector and sensor */
+      Smsgs_cmdIds_oad = 9,
+  ```
 
