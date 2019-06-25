@@ -46,3 +46,5 @@ processOadData()
   > processOadData()
   >> OADProtocol_ParseIncoming()
   >>> processOadImgBlockRsp()
+  >>
+  > Csf_deviceSensorDataUpdate()
