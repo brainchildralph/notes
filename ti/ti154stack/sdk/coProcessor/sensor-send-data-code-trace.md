@@ -46,11 +46,17 @@ processOadData()
   > dataIndCB()
   >> case Smsgs_cmdIds_sensorData:
   >> -> Csf_deviceSensorDisplay()
+  >> -> Csf_deviceRawDataUpdate()
+  >>> -> appsrv_deviceRawDataUpdate()
+  >>>> APPSRV_DEVICE_DATA_RX_IND
+  >>>
   >>
-  >
+  > 
+  > Csf_deviceRawDataUpdate()
+  > 
   > processOadData() (*note: not called, just for reference...*)
   >> -> OADProtocol_ParseIncoming()
   >>> -> processOadImgBlockRsp()
   >>
-  > Csf_deviceSensorDataUpdate()
+  > 
 
