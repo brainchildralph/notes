@@ -1,16 +1,16 @@
 
 SDK
-======
+------
 
 > TI-15-4-STACK-GATEWAY-LINUX-SDK_2.09.00.09
 
 
 Code Trace
-==========    
+-----   
 
 > 
 > cscope    
-> =======
+> -----
 > 
 > ```
 > find `pwd` -name "*.[ch]" > cscope.files
@@ -18,7 +18,7 @@ Code Trace
 > ```
 >  
 > ctags
-> =======
+> -----
 >
 > ```
 > ctags -L cscope.files
@@ -27,7 +27,7 @@ Code Trace
 > 
 > 
 > Console Initialization
-> =====
+> -----
 > 
 >> Collector_init    
 >>> Csf_init    
@@ -36,7 +36,7 @@ Code Trace
 > 
 > 
 > example/collector/linux_main.c: 
-> ======
+> -----
 > 
 > Entry main()
 > 
@@ -46,7 +46,7 @@ Code Trace
 > 
 > 
 > example/collector/appsrv.c:  
-> ======
+> ------
 > 
 > APP_main()
 > 
@@ -81,7 +81,7 @@ Trace appsrv_server_thread()
 >> 
 > 
 > appsrv_processTxDataReq    
-> ======
+> -----
 > 
 > Send TX Data    
 >> Smsgs_cmdIds_toggleLedReq     
@@ -89,13 +89,13 @@ Trace appsrv_server_thread()
 >
 
 Test
-======
+-----
 
 > Netcat (nc)
-> =====
+> -----
 > 
 > Example:   
-> =====
+> -----
 > 
 >> ```
 >> ip=192.168.2.165
@@ -103,7 +103,7 @@ Test
 >> ```
 >>
 >> Permit Join ON/OFF
->> =====
+>> -----
 >>
 >>> ```
 >>> echo -ne "\x04\x00\x4a\x0b\xff\xff\xff\xff" | nc -q -1 ${ip} 5000     # Permit Join On
@@ -112,10 +112,16 @@ Test
 >>>
 >>
 >> Toggle Sensor LED
->> =====
+>> -----
 >>
 >>> ```
 >>> echo -ne "\x03\x00\x4a\x0d\x06\x01\x00" | nc -q -1 ${ip} 5000     #  Toggle Device 0x0001 LED
 >>> ```
 >>
+>> Config Sensor
+>> -----
 >>
+>>> ```
+>>> echo -ne "\x09\x00\x4a\x0d\x01\x01\x00\x00\x00\x10\x27\x19\x00" | nc -q -1 ${ip} 5000
+>>> ```
+>> 
