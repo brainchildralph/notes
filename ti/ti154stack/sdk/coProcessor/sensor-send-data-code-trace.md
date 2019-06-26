@@ -47,7 +47,7 @@ processOadData()
   >> -> Csf_deviceSensorDisplay()
   >>
   >
-  > processOadData()
+  > processOadData() (note: not called, just for reference...)
   >> -> OADProtocol_ParseIncoming()
   >>> -> processOadImgBlockRsp()
   >>
