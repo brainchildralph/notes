@@ -44,10 +44,11 @@ processOadData()
   ```
 - Trace
   > dataIndCB()
+  >> case Smsgs_cmdIds_sensorData:
   >> -> Csf_deviceSensorDisplay()
   >>
   >
-  > processOadData() (note: not called, just for reference...)
+  > processOadData() (*note: not called, just for reference...*)
   >> -> OADProtocol_ParseIncoming()
   >>> -> processOadImgBlockRsp()
   >>
