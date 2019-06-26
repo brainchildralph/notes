@@ -43,12 +43,13 @@ processOadData()
       Smsgs_cmdIds_oad = 9,
   ```
 - Trace
-  > Csf_deviceSensorDisplay()
+  > dataIndCB()
+  >> -> Csf_deviceSensorDisplay()
   >>
   >
   > processOadData()
-  >> OADProtocol_ParseIncoming()
-  >>> processOadImgBlockRsp()
+  >> -> OADProtocol_ParseIncoming()
+  >>> -> processOadImgBlockRsp()
   >>
   > Csf_deviceSensorDataUpdate()
 
