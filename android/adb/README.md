@@ -8,6 +8,8 @@ ADB
 - [disable sleep mode](#disable-sleep-mode)
 - [list all commands](#list-all-commands)
 - [list all properties](#list-all-properties)
+- [install/uninstall apk](#installuninstall-apk)
+
 <!--
 - [](#)
 -->
@@ -79,4 +81,11 @@ adb shell toybox
 ### list all properties
 ```
 adb shell getprop
+```
+
+### install/uninstall apk
+
+```
+adb shell pm uninstall io.ionic.starter
+adb install ${apk_path}
 ```
