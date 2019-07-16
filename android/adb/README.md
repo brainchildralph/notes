@@ -2,6 +2,9 @@
 ADB 
 =======
 
+- [udev rules]()
+
+
 ### udev rules
 /etc/udev/rules.d/51-android.rules: 
 ```
