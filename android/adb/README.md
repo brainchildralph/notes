@@ -4,6 +4,7 @@ ADB
 
 - [udev rules](#udev-rules)
 - [Connect deivice by TCP/IP](#connect-deivice-by-tcpip)
+- [start/stop adb server](#startstop-adb-server)
 <!--
 - [](#)
 -->
