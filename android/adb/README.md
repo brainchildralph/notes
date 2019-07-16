@@ -6,6 +6,8 @@ ADB
 - [Connect deivice by TCP/IP](#connect-deivice-by-tcpip)
 - [start/stop adb server](#startstop-adb-server)
 - [disable sleep mode](#disable-sleep-mode)
+- [list all commands](#list-all-commands)
+- [list all properties](#list all properties)
 <!--
 - [](#)
 -->
@@ -68,4 +70,13 @@ adb start-server
 ### disable sleep mode
 ```
 adb shell svc power stayon true
+```
+### list all commands
+```
+adb shell toybox
+```
+
+### list all properties
+```
+adb shell getprop
 ```
