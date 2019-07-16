@@ -30,6 +30,23 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", MODE="0666", GROUP="plugdev", SYMLINK+
 | Motorola | 22b8 |
 | MTK | 0e8d |
 | NEC | 0409 |
+| Nook | 2080 |
+| Nvidia | 0955 |
+| OTGV | 2257 |
+| Pantech | 10a9 |
+| Pegatron | 1d4d |
+| Philips | 0471 |
+| PMC-Sierra | 04da |
+| Qualcomm | 05c6 |
+| SK Telesys | 1f53 |
+| Samsung | 04e8 |
+| Sharp | 04dd |
+| Sony | 054c |
+| Sony Ericsson | 0fce |
+| Sony Mobile Communications | 0fce |
+| Teleepoch | 2340 |
+| Toshiba | 0930 |
+| ZTE | 19d2 |
 
 ### Connect deivice by TCP/IP
 ```
