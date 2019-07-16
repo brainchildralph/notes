@@ -5,6 +5,7 @@ ADB
 - [udev rules](#udev-rules)
 - [Connect deivice by TCP/IP](#connect-deivice-by-tcpip)
 - [start/stop adb server](#startstop-adb-server)
+- [disable sleep mode](#disable-sleep-mode)
 <!--
 - [](#)
 -->
@@ -64,4 +65,7 @@ adb connect ${IP}:${Port}
 adb kill-server
 adb start-server
 ```
-
+### disable sleep mode
+```
+adb shell svc power stayon true
+```
