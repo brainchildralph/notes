@@ -7,7 +7,7 @@ ADB
 - [start/stop adb server](#startstop-adb-server)
 - [disable sleep mode](#disable-sleep-mode)
 - [list all commands](#list-all-commands)
-- [list all properties](#list all properties)
+- [list all properties](#list-all-properties)
 <!--
 - [](#)
 -->
