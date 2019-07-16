@@ -58,5 +58,9 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", MODE="0666", GROUP="plugdev", SYMLINK+
 adb connect ${IP}:${Port}
 ```
 
-
+### start/stop adb server
+```
+adb kill-server
+adb start-server
+```
 
