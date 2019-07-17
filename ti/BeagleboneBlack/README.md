@@ -26,6 +26,6 @@ References
 
 [eLinux]: https://elinux.org/Beagleboard:BeagleBoneBlack
 [Node-RED]: https://nodered.org/docs/hardware/beagleboneblack
-[PIN]: /ti/BeagleboneBlack/bbb_pins.png
+[PIN]: /notes/ti/BeagleboneBlack/bbb_pins.png
 
 
